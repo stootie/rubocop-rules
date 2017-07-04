@@ -4,6 +4,9 @@ AllCops:
     - "db/*"
     - "vendor/bundle/**/*"
 
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
 Metrics/ModuleLength:
   Exclude:
     - "spec/**/*_spec.rb"
