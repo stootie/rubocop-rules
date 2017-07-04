@@ -1,0 +1,30 @@
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "db/*"
+    - "vendor/bundle/**/*"
+
+Metrics/ModuleLength:
+  Exclude:
+    - "spec/**/*_spec.rb"
+    - "spec/support/shared_examples/**/*.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*_spec.rb"
+    - "spec/support/shared_examples/**/*.rb"
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - "Gemfile"
+
+Metrics/MethodLength:
+  Max: 15
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+  IndentationWidth: 2
+
+Style/Documentation:
+  Enabled: false
