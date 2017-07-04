@@ -10,6 +10,9 @@ Layout/AlignParameters:
 Layout/IndentHash:
   EnforcedStyle: consistent
 
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
+
 Metrics/ModuleLength:
   Exclude:
     - "spec/**/*_spec.rb"
