@@ -35,5 +35,8 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Style/BracesAroundHashParameters:
+  EnforcedStyle: no_braces
+
 Style/Documentation:
   Enabled: false
