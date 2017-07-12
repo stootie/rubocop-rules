@@ -10,6 +10,9 @@ Layout/AlignParameters:
 Layout/FirstParameterIndentation:
   EnforcedStyle: consistent
 
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
 Layout/IndentHash:
   EnforcedStyle: consistent
 
