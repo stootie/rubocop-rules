@@ -41,6 +41,9 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - "spec/**/*_spec.rb"
