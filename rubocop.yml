@@ -3,6 +3,7 @@ AllCops:
     - "bin/*"
     - "db/*"
     - "vendor/bundle/**/*"
+    - "Dangerfile"
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
