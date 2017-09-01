@@ -42,6 +42,10 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Performance/TimesMap:
+  Exclude:
+    - "spec/**/*.rb"
+
 Style/Alias:
   EnforcedStyle: prefer_alias_method
 
