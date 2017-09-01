@@ -42,16 +42,16 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*_spec.rb"
+
 Performance/TimesMap:
   Exclude:
     - "spec/**/*.rb"
 
 Style/Alias:
   EnforcedStyle: prefer_alias_method
-
-Lint/AmbiguousBlockAssociation:
-  Exclude:
-    - "spec/**/*_spec.rb"
 
 Style/BracesAroundHashParameters:
   EnforcedStyle: no_braces
