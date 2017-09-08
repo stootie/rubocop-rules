@@ -29,6 +29,7 @@ Metrics/BlockLength:
   Exclude:
     - "spec/**/*_spec.rb"
     - "spec/support/shared_examples/**/*.rb"
+    - "**/*.rake"
 
 Metrics/LineLength:
   Max: 100
