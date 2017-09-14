@@ -55,7 +55,7 @@ Style/Alias:
   EnforcedStyle: prefer_alias_method
 
 Style/BracesAroundHashParameters:
-  EnforcedStyle: no_braces
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
