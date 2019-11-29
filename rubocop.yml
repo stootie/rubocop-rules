@@ -5,8 +5,8 @@ AllCops:
     - "vendor/bundle/**/*"
     - "Dangerfile"
 
-Layout/ParameterAlignment:
-  EnforcedStyle: with_fixed_indentation
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
 
 Layout/FirstParameterIndentation:
   EnforcedStyle: consistent
@@ -19,6 +19,9 @@ Layout/FirstHashElementIndentation:
 
 Layout/MultilineHashBraceLayout:
   EnforcedStyle: new_line
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
 
 Metrics/ModuleLength:
   Exclude:
@@ -61,7 +64,7 @@ Style/Documentation:
   Enabled: false
 
 Style/MethodDefParentheses:
-  EnforcedStyle: require_no_parentheses
+  Enabled: false
 
 Style/TernaryParentheses:
   EnforcedStyle: require_no_parentheses
