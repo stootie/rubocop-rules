@@ -8,6 +8,9 @@ AllCops:
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
 Layout/FirstParameterIndentation:
   EnforcedStyle: consistent
 
