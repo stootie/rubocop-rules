@@ -40,10 +40,12 @@ Metrics/BlockLength:
     - "spec/support/shared_examples/**/*.rb"
     - "**/*.rake"
 
-Metrics/LineLength:
+Layout:
   Max: 100
   Exclude:
-    - "Gemfile"
+    - 'db/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
 
 Metrics/MethodLength:
   Max: 15
