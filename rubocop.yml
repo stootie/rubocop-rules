@@ -65,9 +65,6 @@ Performance/TimesMap:
 Style/Alias:
   EnforcedStyle: prefer_alias_method
 
-Style/BracesAroundHashParameters:
-  Enabled: false
-
 Style/Documentation:
   Enabled: false
 
